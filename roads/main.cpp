@@ -72,7 +72,7 @@ int main() {
     int rootKing = *roots.begin();
     for (auto root : roots) {
         if (root != rootKing) {
-            std::cout << rootKing << " " << root << "/n";
+            std::cout << rootKing << " " << root << "\n";
         }
     }
 
